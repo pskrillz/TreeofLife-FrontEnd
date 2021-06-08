@@ -14,4 +14,10 @@ export class ToolbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  connectWallet(){
+    // ignore error this works
+    ethereum.request({method: 'eth_requestAccounts'})
+  }
+
+
 }
