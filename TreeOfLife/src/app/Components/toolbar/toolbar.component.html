@@ -1,0 +1,21 @@
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-icon>
+    </mat-icon>
+    <p class="title">
+      Tree Of Life
+    </p>
+
+    <span class="example-spacer"></span>
+    <button>
+     Connect
+    </button>
+  </mat-toolbar>
+
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item><mat-icon>task</mat-icon> Check-In</button>
+    <button mat-menu-item> <mat-icon>description</mat-icon> Submit feedback</button>
+
+  </mat-menu>

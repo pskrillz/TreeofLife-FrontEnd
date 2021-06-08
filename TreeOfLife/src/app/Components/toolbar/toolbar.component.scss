@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  //mobile
+  @media only screen and (max-width: 600px) {
+    .title{
+      margin-left: 15vw;
+    }
+  }
+
+  //desktop
+  @media only screen and (min-width: 600px) {
+    .title{
+      margin-left: 2vw;
+    }
+  }
