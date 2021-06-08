@@ -16,7 +16,7 @@ export class ToolbarComponent implements OnInit {
 
   connectWallet(){
     // ignore error this works
-    ethereum.request({method: 'eth_requestAccounts'})
+   // ethereum.request({method: 'eth_requestAccounts'})
   }
 
 
