@@ -8,6 +8,7 @@ import { ToolbarComponent } from '../app/Components/toolbar/toolbar.component'
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
+import { HomeComponent } from './Components/home/home.component';
 
 
 
@@ -15,7 +16,8 @@ import {MatMenuModule} from '@angular/material/menu';
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
