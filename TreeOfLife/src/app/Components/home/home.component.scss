@@ -1,6 +1,10 @@
  
  
  
+.textFrontPage{
+  color: whitesmoke;
+}
+
  
  //mobile
   @media only screen and (max-width: 600px) {
@@ -8,9 +12,12 @@
     #logoFrontPage{
         // // width: 375px;
         // // height: 800px;
-        width: 100%;
-        height: 50%;
-        margin-top: 10px;
+        width: 90%;
+        height: 40%;
+        margin-top: 20px;
+        margin-left: 20px;
+
+
     }
 
 

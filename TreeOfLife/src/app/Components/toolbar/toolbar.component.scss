@@ -2,6 +2,21 @@
     flex: 1 1 auto;
   }
 
+.toolbar{
+  background: rgba(124, 245, 245, 0.418);
+
+  }
+
+  .title{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 30px;
+    margin-right: 35px;
+
+  }
+
   //mobile
   @media only screen and (max-width: 600px) {
     .title{
