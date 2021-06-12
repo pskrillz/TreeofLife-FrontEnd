@@ -1,0 +1,13 @@
+
+
+<div style="margin-top: 30px;">
+
+    <mat-card class="cards" *ngFor="let categories of lifeCategories">
+        <p class="cardtext">
+            {{categories.title}}
+        </p>
+
+        <mat-slider thumbLabel tickInterval="1" class="sliders" min="1" max="5" step="1" value="1"></mat-slider>
+    </mat-card>
+</div>
+
