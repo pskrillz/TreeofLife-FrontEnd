@@ -4,12 +4,13 @@ import { HomeComponent } from '../app/Components/home/home.component'
 
 
 const routes: Routes = [
-
-  {
-    path: "",
-    component: HomeComponent
   
-  }
+{
+  path: "",
+  component: HomeComponent
+
+}
+
 ]
 
 
